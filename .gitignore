@@ -1,0 +1,72 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# uv
+.python-version
+
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+coverage/
+
+# Docker
+*.log
+
+# OS
+desktop.ini
+ehthumbs.db
+
+# Artifacts
+*.pdf
+!docs/**/*.pdf
+
+# Internal specifications & PRD documents
+QUORIX_PRD.md
+QUORIX_ARCHITECTURE.md
+
+# Agent & LLM generated files
+AGENTS.md
+CLAUDE.md
+**/AGENTS.md
+**/CLAUDE.md
+.agents/
+
+# Boilerplate app documentation
+apps/web/README.md
