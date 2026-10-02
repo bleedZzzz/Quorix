@@ -7,15 +7,16 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
   error?: string;
   hint?: string;
+  icon?: React.ReactNode;
 }
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
-  ({ className, label, error, hint, id: externalId, ...props }, ref) => {
+  ({ className, label, error, hint, icon, id: externalId, ...props }, ref) => {
     const generatedId = useId();
     const id = externalId || generatedId;
 
     return (
-      <div className="flex flex-col gap-1.5">
+      <div className="flex flex-col gap-1.5 w-full">
         {label && (
           <label
             htmlFor={id}
@@ -24,24 +25,32 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             {label}
           </label>
         )}
-        <input
-          id={id}
-          ref={ref}
-          className={cn(
-            "h-9 w-full rounded-[var(--radius-md)] border bg-surface px-3 text-sm",
-            "text-text-primary placeholder:text-text-muted",
-            "transition-colors duration-[var(--duration-fast)]",
-            "focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent",
-            "disabled:opacity-50 disabled:cursor-not-allowed",
-            error
-              ? "border-error focus:ring-error/40 focus:border-error"
-              : "border-border hover:border-border-focus/40",
-            className
+        <div className="relative flex items-center w-full">
+          {icon && (
+            <div className="absolute left-3 flex items-center pointer-events-none text-text-muted">
+              {icon}
+            </div>
           )}
-          aria-invalid={!!error}
-          aria-describedby={error ? `${id}-error` : hint ? `${id}-hint` : undefined}
-          {...props}
-        />
+          <input
+            id={id}
+            ref={ref}
+            className={cn(
+              "h-9 w-full rounded-[var(--radius-md)] border bg-surface px-3 text-sm",
+              icon && "pl-9",
+              "text-text-primary placeholder:text-text-muted",
+              "transition-colors duration-[var(--duration-fast)]",
+              "focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent",
+              "disabled:opacity-50 disabled:cursor-not-allowed",
+              error
+                ? "border-error focus:ring-error/40 focus:border-error"
+                : "border-border hover:border-border-focus/40",
+              className
+            )}
+            aria-invalid={!!error}
+            aria-describedby={error ? `${id}-error` : hint ? `${id}-hint` : undefined}
+            {...props}
+          />
+        </div>
         {error && (
           <p id={`${id}-error`} className="text-xs text-error" role="alert">
             {error}
