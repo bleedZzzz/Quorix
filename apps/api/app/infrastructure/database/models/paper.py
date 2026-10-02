@@ -1,4 +1,4 @@
-"""Quorix API — Paper, Author, and PaperSource models."""
+"""Paper, Author, and PaperSource models."""
 
 from __future__ import annotations
 

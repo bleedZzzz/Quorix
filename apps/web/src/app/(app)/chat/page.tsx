@@ -120,7 +120,6 @@ export default function ChatPage() {
     setMessages((prev) => [...prev, userMsg]);
     setIsGenerating(true);
 
-    // Simulated multi-stage LangGraph Agent stream
     setTimeout(() => {
       const assistantMsg: ChatMessage = {
         id: `msg-${Date.now() + 1}`,
@@ -193,7 +192,6 @@ export default function ChatPage() {
           </div>
         </div>
 
-        {/* Message Feed */}
         <div className="flex-1 overflow-y-auto space-y-5 pr-1 pb-4">
           {messages.map((message) => {
             const isUser = message.role === "user";
@@ -220,7 +218,6 @@ export default function ChatPage() {
                     <AgentProgress steps={message.agent_steps} defaultOpen={false} />
                   )}
 
-                  {/* Message Text with interactive citation badges */}
                   <div className="leading-relaxed text-text-primary whitespace-pre-wrap">
                     {message.content}
                     {message.citations && message.citations.length > 0 && (
@@ -236,7 +233,6 @@ export default function ChatPage() {
                     )}
                   </div>
 
-                  {/* Claims verification footer */}
                   {!isUser && message.claims && message.claims.length > 0 && (
                     <div className="pt-2 border-t border-border-muted/60 flex items-center justify-between text-xs text-text-muted">
                       <span className="flex items-center gap-1 text-success font-medium text-[11px]">
@@ -280,7 +276,6 @@ export default function ChatPage() {
           <div ref={messagesEndRef} />
         </div>
 
-        {/* Input Form & Suggestions */}
         <div className="shrink-0 pt-2 border-t border-border-muted space-y-2 bg-bg/80 backdrop-blur-md">
           {/* Quick Prompts */}
           <div className="flex items-center gap-2 overflow-x-auto pb-1 text-xs">
@@ -324,7 +319,6 @@ export default function ChatPage() {
         </div>
       </div>
 
-      {/* Side Evidence Inspector Drawer */}
       <EvidenceDrawer
         citation={selectedCitation}
         onClose={() => setSelectedCitation(null)}

@@ -1,4 +1,4 @@
-"""Quorix API — Semantic chunker preserving document paragraphs and section boundaries."""
+"""Semantic chunker preserving document paragraphs and section boundaries."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-"""Quorix API — Literature comparison matrix service."""
+"""Literature comparison matrix service."""
 
 from __future__ import annotations
 

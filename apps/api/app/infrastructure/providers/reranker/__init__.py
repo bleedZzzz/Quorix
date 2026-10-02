@@ -1,4 +1,4 @@
-"""Quorix API — Reranker provider package."""
+"""Reranker provider package."""
 
 from app.infrastructure.providers.reranker.base import (
     HeuristicRerankerProvider,

@@ -1,7 +1,4 @@
-/**
- * Quorix Frontend API Client
- * Connects to FastAPI backend (/api/v1) with resilient offline-first mock fallback.
- */
+// API client and types
 
 export interface Paper {
   id: string;
@@ -75,7 +72,6 @@ export interface ComparisonDimension {
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
 
-// Demo mock papers for rich initial experience
 export const INITIAL_PAPERS: Paper[] = [
   {
     id: "p1-vaswani-2017",

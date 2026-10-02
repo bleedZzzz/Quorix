@@ -67,7 +67,6 @@ export function Sidebar() {
         "overflow-y-auto"
       )}
     >
-      {/* Logo */}
       <div className="flex items-center h-[var(--topbar-height)] px-4 border-b border-border-muted shrink-0">
         <Link href="/dashboard" className="flex items-center gap-2 group">
           <div className="w-6 h-6 rounded-[var(--radius-md)] bg-accent flex items-center justify-center">
@@ -79,7 +78,6 @@ export function Sidebar() {
         </Link>
       </div>
 
-      {/* Navigation */}
       <nav className="flex-1 py-3 px-2 space-y-5">
         {navigation.map((section) => (
           <div key={section.title}>
@@ -114,7 +112,6 @@ export function Sidebar() {
         ))}
       </nav>
 
-      {/* Settings */}
       <div className="border-t border-border-muted p-2 shrink-0">
         <Link
           href="/settings"

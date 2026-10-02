@@ -1,4 +1,4 @@
-"""Quorix API — LangGraph agent nodes for evidence-first literature research."""
+"""LangGraph agent nodes for evidence-first literature research."""
 
 from __future__ import annotations
 

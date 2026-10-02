@@ -1,4 +1,4 @@
-"""Quorix API — Hybrid retriever combining Dense & Lexical search with Reciprocal Rank Fusion (RRF)."""
+"""Hybrid retriever combining Dense & Lexical search with Reciprocal Rank Fusion (RRF)."""
 
 from __future__ import annotations
 

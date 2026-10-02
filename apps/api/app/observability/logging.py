@@ -1,4 +1,4 @@
-"""Quorix API — Structured logging configuration."""
+"""Structured logging configuration."""
 
 from __future__ import annotations
 

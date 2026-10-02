@@ -1,4 +1,4 @@
-"""Quorix API — FastAPI application factory."""
+"""FastAPI application factory."""
 
 from __future__ import annotations
 
@@ -53,7 +53,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     app.state.settings = settings
 
-    # ── Middleware ────────────────────────────────────────────────────────────
+    # Middleware
     app.add_middleware(RequestIdMiddleware)
     app.add_middleware(
         CORSMiddleware,
@@ -63,7 +63,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         allow_headers=["*"],
     )
 
-    # ── Dependency overrides ─────────────────────────────────────────────────
+    # Dependency overrides
     # Override the AsyncSession dependency to use our session factory
     from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -75,7 +75,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     app.dependency_overrides[AsyncSession] = _get_session
 
-    # ── Error Monitoring & Exception Handlers ────────────────────────────────
+    # Error Monitoring & Exception Handlers
     import structlog
     from fastapi.exceptions import RequestValidationError
     from fastapi.responses import JSONResponse
@@ -140,7 +140,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             },
         )
 
-    # ── Routes ───────────────────────────────────────────────────────────────
+    # Routes
     app.include_router(api_router)
 
     return app

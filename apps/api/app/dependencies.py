@@ -1,4 +1,4 @@
-"""Quorix API — Dependency injection factories."""
+"""Dependency injection factories."""
 
 from __future__ import annotations
 

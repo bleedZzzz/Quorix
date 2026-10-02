@@ -13,7 +13,6 @@ export function TopBar() {
         "left-[var(--sidebar-width)]"
       )}
     >
-      {/* Search */}
       <button
         className={cn(
           "flex items-center gap-2 px-3 py-1.5 rounded-[var(--radius-md)]",

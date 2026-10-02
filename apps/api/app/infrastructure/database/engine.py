@@ -1,4 +1,4 @@
-"""Quorix API — Async SQLAlchemy engine setup."""
+"""Async SQLAlchemy engine setup."""
 
 from __future__ import annotations
 

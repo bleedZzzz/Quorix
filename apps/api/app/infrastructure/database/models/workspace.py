@@ -1,4 +1,4 @@
-"""Quorix API — Workspace and WorkspaceMember database models."""
+"""Workspace and WorkspaceMember database models."""
 
 from __future__ import annotations
 

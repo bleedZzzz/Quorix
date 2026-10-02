@@ -1,4 +1,4 @@
-"""Quorix API — Lexical keyword retriever using PostgreSQL full-text and pattern search."""
+"""Lexical keyword retriever using PostgreSQL full-text and pattern search."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-"""Quorix Workers — Ingestion worker process."""
+"""Ingestion worker process."""
 
 from __future__ import annotations
 

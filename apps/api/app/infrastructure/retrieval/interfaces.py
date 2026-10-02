@@ -1,4 +1,4 @@
-"""Quorix API — Retrieval interfaces and data models."""
+"""Retrieval interfaces and data models."""
 
 from __future__ import annotations
 

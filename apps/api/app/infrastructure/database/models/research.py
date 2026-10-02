@@ -1,4 +1,4 @@
-"""Quorix API — PaperRelationship, ResearchGap, LiteratureReview, and ReviewScreening models."""
+"""PaperRelationship, ResearchGap, LiteratureReview, and ReviewScreening models."""
 
 from __future__ import annotations
 

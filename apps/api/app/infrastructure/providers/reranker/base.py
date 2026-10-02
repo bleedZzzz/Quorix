@@ -1,4 +1,4 @@
-"""Quorix API — Reranker provider interface and implementations."""
+"""Reranker provider interface and implementations."""
 
 from __future__ import annotations
 

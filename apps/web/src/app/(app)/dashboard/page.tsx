@@ -15,7 +15,6 @@ import Link from "next/link";
 export default function DashboardPage() {
   return (
     <div className="max-w-4xl mx-auto space-y-8">
-      {/* Header */}
       <div>
         <h1 className="text-2xl font-semibold text-text-primary">
           Research Workspace
@@ -25,7 +24,6 @@ export default function DashboardPage() {
         </p>
       </div>
 
-      {/* Quick Actions */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
         <Link href="/discover">
           <Card variant="interactive" className="group">
@@ -80,7 +78,6 @@ export default function DashboardPage() {
         </Link>
       </div>
 
-      {/* Main Empty State */}
       <Card>
         <CardContent className="py-0">
           <EmptyState
@@ -107,7 +104,6 @@ export default function DashboardPage() {
         </CardContent>
       </Card>
 
-      {/* Sections */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <Card>
           <CardContent>

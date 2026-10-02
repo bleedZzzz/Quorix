@@ -80,7 +80,6 @@ export default function LibraryPage() {
 
   return (
     <div className="max-w-6xl mx-auto space-y-6">
-      {/* Header & Primary Action */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-semibold text-text-primary">Paper Library</h1>
@@ -94,7 +93,6 @@ export default function LibraryPage() {
         </Button>
       </div>
 
-      {/* Filter and Search Bar */}
       <div className="flex flex-col sm:flex-row items-center gap-3">
         <div className="relative flex-1 w-full">
           <Input
@@ -121,7 +119,6 @@ export default function LibraryPage() {
         </div>
       </div>
 
-      {/* Paper Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {filteredPapers.map((paper) => (
           <Card
@@ -188,7 +185,6 @@ export default function LibraryPage() {
         ))}
       </div>
 
-      {/* Upload Paper Modal */}
       <Modal
         isOpen={isUploadOpen}
         onClose={() => setIsUploadOpen(false)}

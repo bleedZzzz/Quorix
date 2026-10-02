@@ -42,7 +42,6 @@ export default function DiscoverPage() {
 
   return (
     <div className="max-w-5xl mx-auto space-y-6">
-      {/* Header */}
       <div>
         <h1 className="text-2xl font-semibold text-text-primary">Discover Academic Papers</h1>
         <p className="text-sm text-text-muted mt-1">
@@ -50,7 +49,6 @@ export default function DiscoverPage() {
         </p>
       </div>
 
-      {/* Search Input */}
       <form onSubmit={handleSearch} className="flex gap-2">
         <div className="relative flex-1">
           <Input
@@ -65,7 +63,6 @@ export default function DiscoverPage() {
         </Button>
       </form>
 
-      {/* Suggested Trending Topics */}
       <div className="flex items-center gap-2 overflow-x-auto text-xs pb-1">
         <span className="text-text-muted flex items-center gap-1 shrink-0">
           <TrendingUp size={13} />
@@ -95,7 +92,6 @@ export default function DiscoverPage() {
         ))}
       </div>
 
-      {/* Results List */}
       <div className="space-y-3 pt-2">
         <div className="flex items-center justify-between text-xs text-text-muted pb-1 border-b border-border-muted">
           <span>Found {results.length} relevant publications</span>

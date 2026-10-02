@@ -1,4 +1,4 @@
-"""Quorix API — Retrieval package."""
+"""Retrieval package."""
 
 from app.infrastructure.retrieval.dense import DenseRetriever
 from app.infrastructure.retrieval.hybrid import HybridRetriever

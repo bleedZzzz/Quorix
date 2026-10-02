@@ -1,4 +1,4 @@
-"""Quorix API — Document repository for PDF files, pages, sections, and chunks."""
+"""Document repository for PDF files, pages, sections, and chunks."""
 
 from __future__ import annotations
 

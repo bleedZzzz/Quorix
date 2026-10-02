@@ -1,4 +1,4 @@
-"""Quorix API — Background jobs endpoints."""
+"""Background jobs endpoints."""
 
 from __future__ import annotations
 

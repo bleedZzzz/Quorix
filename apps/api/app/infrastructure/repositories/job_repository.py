@@ -1,4 +1,4 @@
-"""Quorix API — Job, job event, saved search, and model request repository."""
+"""Job, job event, saved search, and model request repository."""
 
 from __future__ import annotations
 

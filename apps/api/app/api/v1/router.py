@@ -1,4 +1,4 @@
-"""Quorix API — v1 route aggregation."""
+"""v1 route aggregation."""
 
 from __future__ import annotations
 

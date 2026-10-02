@@ -1,4 +1,4 @@
-"""Quorix API — Password hashing utilities."""
+"""Password hashing utilities."""
 
 from __future__ import annotations
 

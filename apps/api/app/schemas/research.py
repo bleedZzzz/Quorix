@@ -1,4 +1,4 @@
-"""Quorix API — Research graph, gaps, reviews, and screening schemas."""
+"""Research graph, gaps, reviews, and screening schemas."""
 
 from __future__ import annotations
 

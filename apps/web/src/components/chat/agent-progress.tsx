@@ -20,7 +20,6 @@ export function AgentProgress({ steps, defaultOpen = false }: AgentProgressProps
 
   return (
     <div className="rounded-lg border border-border-muted bg-surface-elevated/40 text-xs overflow-hidden my-3">
-      {/* Header / Toggle */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-2.5 px-3 hover:bg-surface-hover/50 transition-colors text-left"
@@ -45,7 +44,6 @@ export function AgentProgress({ steps, defaultOpen = false }: AgentProgressProps
         </div>
       </button>
 
-      {/* Expanded Step List */}
       {isOpen && (
         <div className="p-3 pt-1 space-y-2 border-t border-border-muted/50 bg-surface/50 font-mono text-[11px]">
           {steps.map((step, idx) => (

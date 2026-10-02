@@ -1,4 +1,4 @@
-"""Quorix API — Storage package."""
+"""Storage package."""
 
 from app.infrastructure.storage.service import S3StorageService, StorageService
 

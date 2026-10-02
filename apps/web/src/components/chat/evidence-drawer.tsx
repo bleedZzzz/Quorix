@@ -16,7 +16,6 @@ export function EvidenceDrawer({ citation, onClose }: EvidenceDrawerProps) {
 
   return (
     <div className="fixed inset-y-0 right-0 z-50 w-full sm:w-[420px] bg-surface border-l border-border shadow-2xl flex flex-col animate-in slide-in-from-right duration-200">
-      {/* Drawer Header */}
       <div className="flex items-center justify-between p-4 border-b border-border-muted bg-surface-muted/40">
         <div className="flex items-center gap-2">
           <div className="w-6 h-6 rounded bg-accent-muted flex items-center justify-center text-accent text-xs font-mono font-bold">
@@ -35,9 +34,7 @@ export function EvidenceDrawer({ citation, onClose }: EvidenceDrawerProps) {
         </button>
       </div>
 
-      {/* Drawer Content */}
       <div className="flex-1 overflow-y-auto p-5 space-y-5">
-        {/* Source Paper Card */}
         <div className="p-3.5 rounded-lg bg-surface-elevated/70 border border-border-muted space-y-2">
           <div className="flex items-center justify-between">
             <Badge variant="accent">Source Paper</Badge>
@@ -60,7 +57,6 @@ export function EvidenceDrawer({ citation, onClose }: EvidenceDrawerProps) {
           </div>
         </div>
 
-        {/* Verbatim Excerpt */}
         <div className="space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-xs font-medium uppercase tracking-wider text-text-muted">
@@ -77,7 +73,6 @@ export function EvidenceDrawer({ citation, onClose }: EvidenceDrawerProps) {
           </div>
         </div>
 
-        {/* Audit Context */}
         <div className="p-3 rounded-lg bg-surface-hover/50 border border-border-muted space-y-1.5 text-xs text-text-secondary">
           <p className="font-medium text-text-primary">Grounding Verification</p>
           <p>
@@ -86,7 +81,6 @@ export function EvidenceDrawer({ citation, onClose }: EvidenceDrawerProps) {
         </div>
       </div>
 
-      {/* Drawer Footer Actions */}
       <div className="p-4 border-t border-border-muted bg-surface-muted/30 flex items-center gap-2">
         <Button variant="primary" size="sm" className="flex-1">
           <BookOpen size={14} />

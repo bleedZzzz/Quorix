@@ -1,4 +1,4 @@
-"""Quorix API — Schemas package."""
+"""Schemas package."""
 
 from app.schemas.auth import (
     LoginRequest,

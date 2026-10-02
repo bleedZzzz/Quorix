@@ -1,4 +1,4 @@
-"""Quorix API — Async database session factory."""
+"""Async database session factory."""
 
 from __future__ import annotations
 

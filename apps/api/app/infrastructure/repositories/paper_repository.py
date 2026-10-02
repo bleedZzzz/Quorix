@@ -1,4 +1,4 @@
-"""Quorix API — Paper repository for database operations on academic literature."""
+"""Paper repository for database operations on academic literature."""
 
 from __future__ import annotations
 

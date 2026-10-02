@@ -1,4 +1,4 @@
-"""Quorix API — Dense semantic retriever using Qdrant."""
+"""Dense semantic retriever using Qdrant."""
 
 from __future__ import annotations
 

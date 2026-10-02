@@ -1,4 +1,4 @@
-"""Quorix API — Embedding provider package."""
+"""Embedding provider package."""
 
 from app.infrastructure.providers.embeddings.base import (
     EmbeddingProvider,

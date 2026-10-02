@@ -1,4 +1,4 @@
-"""Quorix API — Common Pydantic schemas."""
+"""Common Pydantic schemas."""
 
 from __future__ import annotations
 

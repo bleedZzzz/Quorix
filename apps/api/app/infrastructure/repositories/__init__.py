@@ -1,4 +1,4 @@
-"""Quorix API — Infrastructure repositories package."""
+"""Infrastructure repositories package."""
 
 from app.infrastructure.repositories.conversation_repository import ConversationRepository
 from app.infrastructure.repositories.document_repository import DocumentRepository

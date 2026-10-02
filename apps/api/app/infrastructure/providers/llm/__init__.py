@@ -1,4 +1,4 @@
-"""Quorix API — LLM provider package."""
+"""LLM provider package."""
 
 from app.infrastructure.providers.llm.base import (
     LLMProvider,

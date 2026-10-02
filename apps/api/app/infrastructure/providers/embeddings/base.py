@@ -1,4 +1,4 @@
-"""Quorix API — Embedding provider interface and implementations."""
+"""Embedding provider interface and implementations."""
 
 from __future__ import annotations
 

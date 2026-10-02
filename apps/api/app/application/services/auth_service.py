@@ -1,4 +1,4 @@
-"""Quorix API — Authentication service."""
+"""Authentication service."""
 
 from __future__ import annotations
 

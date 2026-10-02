@@ -1,4 +1,4 @@
-"""Quorix API — PDF parsing engine using PyMuPDF."""
+"""PDF parsing engine using PyMuPDF."""
 
 from __future__ import annotations
 

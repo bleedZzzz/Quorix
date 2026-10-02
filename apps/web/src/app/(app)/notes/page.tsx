@@ -84,7 +84,6 @@ export default function NotesPage() {
 
   return (
     <div className="max-w-5xl mx-auto space-y-6">
-      {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-semibold text-text-primary">
@@ -101,7 +100,6 @@ export default function NotesPage() {
         </Button>
       </div>
 
-      {/* Search */}
       <div className="relative">
         <Input
           value={search}

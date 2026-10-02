@@ -1,4 +1,4 @@
-"""Quorix API — Notes, annotations, and tagging service."""
+"""Notes, annotations, and tagging service."""
 
 from __future__ import annotations
 

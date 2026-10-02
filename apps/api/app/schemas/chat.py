@@ -1,4 +1,4 @@
-"""Quorix API — Chat, conversation, claim, and citation schemas."""
+"""Chat, conversation, claim, and citation schemas."""
 
 from __future__ import annotations
 

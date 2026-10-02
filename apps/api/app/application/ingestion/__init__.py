@@ -1,4 +1,4 @@
-"""Quorix API — Document ingestion and processing package."""
+"""Document ingestion and processing package."""
 
 from app.application.ingestion.chunker import SemanticChunk, SemanticChunker
 from app.application.ingestion.pdf_parser import ExtractedPage, ParsedPDF, PDFParser

@@ -1,4 +1,4 @@
-"""Quorix API — Request middleware for observability."""
+"""Request middleware for observability."""
 
 from __future__ import annotations
 

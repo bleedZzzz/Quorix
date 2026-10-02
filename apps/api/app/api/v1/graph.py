@@ -1,4 +1,4 @@
-"""Quorix API — Knowledge graph endpoints."""
+"""Knowledge graph endpoints."""
 
 from __future__ import annotations
 

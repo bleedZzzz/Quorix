@@ -1,4 +1,4 @@
-"""Quorix API — Conversation and Message models."""
+"""Conversation and Message models."""
 
 from __future__ import annotations
 

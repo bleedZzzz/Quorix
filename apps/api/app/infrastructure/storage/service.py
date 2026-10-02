@@ -1,4 +1,4 @@
-"""Quorix API — Object storage base abstraction and S3/MinIO implementation."""
+"""Object storage base abstraction and S3/MinIO implementation."""
 
 from __future__ import annotations
 

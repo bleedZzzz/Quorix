@@ -30,7 +30,6 @@ export function CitationBadge({ citation, onSelect, className }: CitationBadgePr
         [{citation.number}]
       </button>
 
-      {/* Hover preview tooltip */}
       {showTooltip && (
         <div
           className={cn(

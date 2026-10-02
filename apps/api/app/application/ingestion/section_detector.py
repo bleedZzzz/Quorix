@@ -1,4 +1,4 @@
-"""Quorix API — Section detector identifying hierarchical academic paper sections."""
+"""Section detector identifying hierarchical academic paper sections."""
 
 from __future__ import annotations
 

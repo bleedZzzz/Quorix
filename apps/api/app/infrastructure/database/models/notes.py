@@ -1,4 +1,4 @@
-"""Quorix API — Tag, PaperTag, Annotation, Note, and NoteLink models."""
+"""Tag, PaperTag, Annotation, Note, and NoteLink models."""
 
 from __future__ import annotations
 

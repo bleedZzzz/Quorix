@@ -1,4 +1,4 @@
-"""Quorix API — Ingestion pipeline service."""
+"""Ingestion pipeline service."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-"""Quorix API — Qdrant vector database client and collection manager."""
+"""Qdrant vector database client and collection manager."""
 
 from __future__ import annotations
 

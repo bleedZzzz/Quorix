@@ -1,4 +1,4 @@
-"""Quorix API — LangGraph Research Agent workflow builder."""
+"""LangGraph Research Agent workflow builder."""
 
 from __future__ import annotations
 

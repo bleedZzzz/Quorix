@@ -1,4 +1,4 @@
-"""Quorix API — Application services package."""
+"""Application services package."""
 
 from app.application.services.auth_service import AuthService
 from app.application.services.chat_service import ChatService

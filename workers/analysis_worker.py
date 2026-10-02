@@ -1,4 +1,4 @@
-"""Quorix Workers — Analysis and research intelligence worker."""
+"""Analysis and research intelligence worker."""
 
 from __future__ import annotations
 

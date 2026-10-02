@@ -1,4 +1,4 @@
-"""Quorix API — Literature discovery service querying open academic repositories."""
+"""Literature discovery service querying open academic repositories."""
 
 from __future__ import annotations
 

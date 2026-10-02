@@ -1,4 +1,4 @@
-"""Quorix API — Claim, EvidenceSpan, and Citation models."""
+"""Claim, EvidenceSpan, and Citation models."""
 
 from __future__ import annotations
 

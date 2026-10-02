@@ -1,4 +1,4 @@
-"""Quorix API — Qdrant package."""
+"""Qdrant package."""
 
 from app.infrastructure.qdrant.client import QdrantManager
 

@@ -1,4 +1,4 @@
-"""Quorix Workers — Main worker execution loop."""
+"""Main worker execution loop."""
 
 from __future__ import annotations
 

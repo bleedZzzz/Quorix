@@ -1,4 +1,4 @@
-"""Quorix API — Document, DocumentPage, DocumentSection, and DocumentChunk models."""
+"""Document, DocumentPage, DocumentSection, and DocumentChunk models."""
 
 from __future__ import annotations
 

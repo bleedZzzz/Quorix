@@ -1,4 +1,4 @@
-"""Quorix API — Database models package."""
+"""Database models package."""
 
 from app.infrastructure.database.models.conversation import Conversation, Message
 from app.infrastructure.database.models.document import (

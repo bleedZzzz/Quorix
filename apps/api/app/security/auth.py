@@ -1,4 +1,4 @@
-"""Quorix API — Authentication dependencies for FastAPI."""
+"""Authentication dependencies for FastAPI."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-"""Quorix API — JWT token management."""
+"""JWT token management."""
 
 from __future__ import annotations
 

@@ -91,7 +91,6 @@ export default function ComparePage() {
 
   return (
     <div className="max-w-6xl mx-auto space-y-6">
-      {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-semibold text-text-primary">
@@ -130,7 +129,6 @@ export default function ComparePage() {
         </div>
       </div>
 
-      {/* Comparison Table */}
       <div className="overflow-x-auto rounded-xl border border-border-muted bg-surface shadow-sm">
         <table className="w-full text-left border-collapse">
           <thead>

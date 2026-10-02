@@ -1,4 +1,4 @@
-"""Quorix API — SQLAlchemy declarative base with common mixins."""
+"""SQLAlchemy declarative base with common mixins."""
 
 from __future__ import annotations
 

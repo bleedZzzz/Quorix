@@ -1,4 +1,4 @@
-"""Quorix API — Systematic literature review and screening service."""
+"""Systematic literature review and screening service."""
 
 from __future__ import annotations
 

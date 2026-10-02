@@ -1,4 +1,4 @@
-"""Quorix API — Health check endpoint."""
+"""Health check endpoint."""
 
 from __future__ import annotations
 

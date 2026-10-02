@@ -1,4 +1,4 @@
-"""Quorix API — LLM provider interface and implementations."""
+"""LLM provider interface and implementations."""
 
 from __future__ import annotations
 

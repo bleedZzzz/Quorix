@@ -1,4 +1,4 @@
-"""Quorix Workers — Redis-backed background job queue and dispatcher."""
+"""Redis-backed background job queue and dispatcher."""
 
 from __future__ import annotations
 

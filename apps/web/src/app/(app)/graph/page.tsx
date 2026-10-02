@@ -43,7 +43,6 @@ export default function GraphPage() {
 
   return (
     <div className="max-w-6xl mx-auto space-y-6">
-      {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-semibold text-text-primary">
@@ -66,7 +65,6 @@ export default function GraphPage() {
         {/* Interactive SVG Graph Canvas */}
         <div className="lg:col-span-2 rounded-xl border border-border-muted bg-surface-muted/40 p-4 relative overflow-hidden h-[480px] flex items-center justify-center shadow-inner">
           <svg className="w-full h-full" viewBox="0 0 700 400">
-            {/* Edges */}
             {edges.map((e, idx) => {
               const src = nodes.find((n) => n.id === e.from);
               const dst = nodes.find((n) => n.id === e.to);
@@ -85,7 +83,6 @@ export default function GraphPage() {
               );
             })}
 
-            {/* Nodes */}
             {nodes.map((n) => {
               const isSelected = selectedNode === n.id;
               const isPaper = n.type === "paper";
@@ -120,7 +117,6 @@ export default function GraphPage() {
             })}
           </svg>
 
-          {/* Canvas Floating Controls */}
           <div className="absolute bottom-4 right-4 flex items-center gap-1 bg-surface border border-border rounded-lg p-1 shadow-md">
             <button className="p-1.5 rounded hover:bg-surface-hover text-text-muted hover:text-text-primary">
               <ZoomIn size={14} />
@@ -131,7 +127,6 @@ export default function GraphPage() {
           </div>
         </div>
 
-        {/* Node Detail Inspector */}
         <Card className="border-border bg-surface">
           <CardContent className="p-5 space-y-4">
             <h3 className="text-xs font-semibold uppercase tracking-wider text-text-muted">

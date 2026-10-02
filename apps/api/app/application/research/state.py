@@ -1,4 +1,4 @@
-"""Quorix API — LangGraph ResearchState definition."""
+"""LangGraph ResearchState definition."""
 
 from __future__ import annotations
 

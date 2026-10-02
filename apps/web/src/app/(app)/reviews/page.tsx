@@ -24,7 +24,6 @@ export default function ReviewsPage() {
 
   return (
     <div className="max-w-4xl mx-auto space-y-6">
-      {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-semibold text-text-primary">
@@ -47,7 +46,6 @@ export default function ReviewsPage() {
         </div>
       </div>
 
-      {/* Review Document Canvas */}
       <Card className="border-border bg-surface shadow-md">
         <CardContent className="p-6 sm:p-10 space-y-8 font-serif leading-relaxed text-text-secondary text-sm">
           {/* Paper Title Header */}
@@ -64,7 +62,6 @@ export default function ReviewsPage() {
             </p>
           </div>
 
-          {/* Section 1: Abstract */}
           <section className="space-y-2">
             <h3 className="font-sans text-sm font-semibold uppercase tracking-wider text-text-primary">
               1. Abstract
@@ -74,7 +71,6 @@ export default function ReviewsPage() {
             </p>
           </section>
 
-          {/* Section 2: Methodological Evolution */}
           <section className="space-y-2">
             <h3 className="font-sans text-sm font-semibold uppercase tracking-wider text-text-primary">
               2. Architectural Foundations: Recurrence vs. Attention
@@ -96,7 +92,6 @@ export default function ReviewsPage() {
             </p>
           </section>
 
-          {/* Section 3: Grounding and Retrieval */}
           <section className="space-y-2">
             <h3 className="font-sans text-sm font-semibold uppercase tracking-wider text-text-primary">
               3. Non-Parametric Memory and RAG
@@ -106,7 +101,6 @@ export default function ReviewsPage() {
             </p>
           </section>
 
-          {/* Cited References */}
           <section className="font-sans border-t border-border-muted pt-6 space-y-3">
             <h3 className="text-xs font-semibold uppercase tracking-wider text-text-muted">
               Cited Publications
