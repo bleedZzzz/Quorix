@@ -70,7 +70,10 @@ export interface ComparisonDimension {
   values: Record<string, string>; // paper_id -> summary string
 }
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+const API_BASE =
+  typeof window !== "undefined"
+    ? "/api/v1"
+    : (process.env.BACKEND_INTERNAL_URL ? `${process.env.BACKEND_INTERNAL_URL}/api/v1` : "http://127.0.0.1:8000/api/v1");
 
 export const INITIAL_PAPERS: Paper[] = [
   {
